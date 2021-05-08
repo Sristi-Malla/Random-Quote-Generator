@@ -1,0 +1,65 @@
+body {
+ background-image: url('img3.jpg');
+ height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+}
+div {
+    text-align:center;
+    background-size: 100% 100%;
+}
+h1{
+    width:700px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:rgb(76, 229, 235);
+    color:black;
+    line-height:2;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1:hover{
+  background-color:rgb(144, 238, 132);
+}
+button {
+    width:250px;
+    height:80px;
+    background-color:plum;
+    color:black;
+    font-size: 30px;
+    font-weight: "400";
+    border-radius: 60px;
+    border:none;
+}
+p {
+    margin: 100px;
+    font-size: 35px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    width:800px;
+    border-radius: 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(86, 100, 102);
+    color:rgb(255, 255, 255);
+}
+button:hover {
+    background-color: rgb(133, 229, 241);
+}
+#quoteOutput {
+    background-color: rgb(248, 234, 237);
+    color :rgb(61, 43, 43);
+    font-family: "Sofia", sans-serif;
+    font-style:italic;
+    width: 1000px;
+    text-shadow: 3px 3px 0px #efa032;
+}
+
+#authorOutput {
+    background-color: rgb(248, 234, 237);
+    color :rgb(61, 43, 43);
+    font-family: "Sofia", sans-serif;
+    font-style:italic;
+    width: 300px;
+    text-shadow: 3px 3px 0px #1ed445;
+}
